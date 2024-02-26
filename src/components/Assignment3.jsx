@@ -20,10 +20,6 @@ export const Assignment3 = () => {
         }
         return totalValue;
     },[items])
-    // let totalValue = useMemo.apply(()=>{
-    //     return totalValue;
-    // },[items])
-    // Your code ends here
     return (
         <div>
             <ul>
