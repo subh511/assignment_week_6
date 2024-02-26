@@ -1,6 +1,8 @@
 //import { Assignment1 } from "./components/Assignment1"
 
-import { Assignment2 } from "./components/useCallback/Assignment2"
+import Assignment1 from "./components/useRef/Assignment1"
+
+//import { Assignment2 } from "./components/useCallback/Assignment2"
 
 //import { Assignment1 } from "./components/useCallback/Assignment1"
 
@@ -15,7 +17,8 @@ function App() {
     {/*<Assignment2/>*/}
     {/*<Assignment3/>*/}
     {/*<Assignment1/>*/}
-    <Assignment2/>
+    {/*<Assignment2/>*/}
+    <Assignment1/>
     </div>
   )
 }
