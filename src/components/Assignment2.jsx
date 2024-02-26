@@ -24,7 +24,7 @@ export function Assignment2() {
         return sentences.filter(x => x.includes(filter))
     },[sentences,filter]) 
 
-    return <div>
+    return <div> 
         <input type="text" onChange={(e) => {
             setFilter(e.target.value)
         }}></input>
